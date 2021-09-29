@@ -15,6 +15,8 @@ import (
 )
 
 func main() {
-        fmt.Println(capitalize.Str("hello, world."))
+        fmt.Println(capitalize.Str("foobar"))
+        fmt.Println(capitalize.Str("fooBAR"))
+        fmt.Println(capitalize.Str("FOOBAR"))
 }
 ```
